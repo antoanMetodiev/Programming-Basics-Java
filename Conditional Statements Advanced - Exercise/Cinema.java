@@ -4,8 +4,8 @@ public class Cinema {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         String projection = scanner.nextLine();
-        int rowCount = Integer.parseInt(scanner.nextLine());  // Брой редове
-        int columnsCount = Integer.parseInt(scanner.nextLine()); // Брой колони
+        int rowCount = Integer.parseInt(scanner.nextLine());  
+        int columnsCount = Integer.parseInt(scanner.nextLine());
 
         double price = 0;
         if (projection.equals("Premiere")){
