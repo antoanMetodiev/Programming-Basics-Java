@@ -13,7 +13,6 @@ public class CleverLily {
         for (int i = 1 ;  i <= n ;  i++) {
 
             if (i % 2 == 0) {
-
                 money = money + 10;
                 allMoney += money;
                 allMoney -= 1;
@@ -24,12 +23,10 @@ public class CleverLily {
 
         allMoney += priceForOneToy * toysCount;
         if (allMoney >= washerPrice){
-
             allMoney -= washerPrice;
             System.out.printf("Yes! %.2f\n",allMoney);
         }
         else{
-
             washerPrice -= allMoney;
             System.out.printf("No! %.2f\n", washerPrice);
         }
