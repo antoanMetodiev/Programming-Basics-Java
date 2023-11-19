@@ -1,13 +1,11 @@
 import java.util.Scanner;
-public class AccountBalance {
 
+public class AccountBalance {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         String name = scanner.nextLine();
         double totalSum = 0;
-
         while (!name.equals("NoMoreMoney")){
-
             double number = Double.parseDouble(name);
             if (number <= 0){
                 System.out.println("Invalid operation!");
